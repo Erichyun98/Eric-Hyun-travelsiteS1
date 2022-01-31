@@ -1,0 +1,122 @@
+.nav__link--active { 
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid #DB7A4E;
+    padding-bottom: 5px;
+}
+
+.hero { 
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 370px;
+}
+
+.hero__information { 
+    margin-left: 75px;
+}
+
+.hero__title { 
+    color: #335576; 
+    text-align: left;
+    font-size: 40px;
+}
+
+.hero__description { 
+    text-align: left;
+    color: #335576; 
+    font-size: 15px;
+}
+
+.hero__button { 
+    background-color: #DB7A4E;
+    border: none;
+    border-radius: 25px;
+    height: 30px;  
+    width: 140px;
+    color: white;
+
+}
+
+.hero__image--location { 
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero__image {
+    width: 60%;
+}
+
+.rec { 
+    height: 380px;
+}
+
+.rec__countries { 
+    display:flex; 
+    justify-content: space-around;
+}
+
+.rec__card {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.rec__title { 
+    color: #335576;
+    margin-left: 75px;
+}
+
+.rec__card--hawaii { 
+    background-image: url("/assets/images/hawaii.jpg");
+    min-height: 310px;
+    min-width: 210px;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    position:relative;
+    margin-left: 120px;
+    
+}
+
+.rec__card--iceland { 
+    background-image: url("/assets/images/iceland.jpg");
+    min-height: 310px;
+    min-width: 210px;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    position:relative;
+}
+
+.rec__card--greece {
+    background-image: url("/assets/images/greece.jpg");
+    min-height: 310px;
+    min-width: 210px;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    position:relative;
+    margin-right: 120px;
+    
+
+}
+
+.rec__card-title { 
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    margin-bottom: 10px;
+}
+
+.rec__card-image { 
+    width: 165px;
+    height: 250x;
+}
+
